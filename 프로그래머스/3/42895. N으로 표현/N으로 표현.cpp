@@ -3,8 +3,6 @@
 
 using namespace std;
 
-const int INF = 987654321;
-
 int solution(int N, int number) {
     vector<unordered_set<int>> dp(9);
     
