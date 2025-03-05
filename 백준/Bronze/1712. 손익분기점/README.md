@@ -6,9 +6,9 @@ a = 고정비용, b= 가변비용, c=제품 가격
 총 수입(c*n)이 총 비용(고정비용 + 가변비용 * n)보다 
 커지는 최초의 자연수 n을 찾는것
 
-c x n ≥ a+bxn
+c x n > a+bxn
 <br>
-n ≥ (b-c) / a
+n > (b-c) / a
 
 따라서 BREAK_EVEN_POINT = a/Math.Abs(b-c) + 1;으로 구하였고
 
