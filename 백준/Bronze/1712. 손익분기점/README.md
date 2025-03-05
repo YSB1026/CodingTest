@@ -1,3 +1,18 @@
+### 설명
+
+a = 고정비용, b= 가변비용, c=제품 가격
+
+손익분기점은 n은
+총 수입(c*n)이 총 비용(고정비용 + 가변비용 * n)보다 
+
+커지는 최초의 자연수 n을 찾는것
+
+따라서 BREAK_EVEN_POINT = a/Math.Abs(b-c) + 1;으로 구하였고
+
+가변비용(b)이 제품 가격(c)보다 크거나 같게 되면
+손익분기점을 구하지 못함으로, 
+if (b>=c) BREAK_EVEN_POINT = -1;
+
 # [Bronze II] 손익분기점 - 1712 
 
 [문제 링크](https://www.acmicpc.net/problem/1712) 
