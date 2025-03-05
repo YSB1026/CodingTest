@@ -1,3 +1,11 @@
+# 설명
+
+h = heighh(높이), w = width(가로), n(n번째 손님)
+XX(호실  01~w호실) n/h를 올림한 값.
+
+YY(층수 1~h층)  n-h*(XX-1), 
+1층을 기준으로 몇층까지 떨어져있는지, offset으로 구함
+
 # [Bronze III] ACM 호텔 - 10250 
 
 [문제 링크](https://www.acmicpc.net/problem/10250) 
