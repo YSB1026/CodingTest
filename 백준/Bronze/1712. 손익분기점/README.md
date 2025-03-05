@@ -7,6 +7,7 @@ a = 고정비용, b= 가변비용, c=제품 가격
 커지는 최초의 자연수 n을 찾는것
 
 c*n ≥ a+b*n
+<br>
 n ≥ (b-c) / a
 
 따라서 BREAK_EVEN_POINT = a/Math.Abs(b-c) + 1;으로 구하였고
