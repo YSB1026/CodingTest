@@ -69,13 +69,12 @@ namespace 백준18258_큐2
         public T GetFront()
         {
             if (size == 0) return default;//throw new Exception("");
-            return size > 0 ? arr[front] : default;
+            return arr[front];
         }
         public T GetBack()
         {
             if (size==0) return default;//throw new Exception("");
-            if (rear==0) return arr[size-1];
-            return arr[rear-1];
+            return (rear==0)? arr[size-1]: arr[rear-1];
         }
 
         public int IsEmpty()// C나 C++에선 true false는 1,0이라 됐엇는데..
