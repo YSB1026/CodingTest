@@ -52,6 +52,8 @@ int solution()
 }
 
 int main() {
-    return solution();
+    solution();
+    
+    return 0;
 }
 
